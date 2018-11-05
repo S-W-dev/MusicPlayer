@@ -1,0 +1,20 @@
+{
+	"manifest_version":2,
+	
+	"name":"Music Player",
+	"description":"Play Music",
+	"version":"2.0.1",
+
+	"browser_action":{
+		"default_popup":"popup.html"
+	},
+
+	"background": {
+    	"scripts": ["background.js"],
+    	"persistent": true
+  	},
+
+	"permissions":[
+		"activeTab"
+	]
+}

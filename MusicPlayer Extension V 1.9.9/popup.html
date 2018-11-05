@@ -1,0 +1,46 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="styles.css">
+<script src="popup.js"></script>
+
+
+</head>
+<body id="backgroundStage" class="background1">
+
+<center>
+<h1>Music Player</h1>
+<h3>Songs:</h3>
+
+<div id="settings" class="settings">
+
+	<button id="color_change" onclick="color_change()" class="button2">Change Colors</button>
+
+</div>
+<br><br>
+
+<!--Code for custom song. Uses online database and these songs must be paid for.-->
+
+<br><br>
+
+<div id="Custom Song">Custom Song
+	<input type="text" name="custom" class="iframe-text1"/>
+	<br><br>
+	<button id="StartCustom" class="Start">Start</button>
+	<button id="PauseCustom" class="Pause">Pause</button>
+	<button id="RestartCustom" class="Restart">Restart</button>
+  <audio id="custom_audio" src="" preload="auto">
+</div>
+
+<br>
+<!--Songlist-->
+<br>
+
+<div id="Song List"><p id="iframe-text" class="iframe-text1">Song List</p>
+	<br>
+	<iframe class="iframe1" width="500px" height="100px" id="song_list" src="http://cookieclicker.web44.net/musicplayer/songlist.html"/>
+
+</center>
+
+</body>
+</html>

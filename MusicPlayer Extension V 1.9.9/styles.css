@@ -1,0 +1,74 @@
+button {
+  vertical-align: top;
+  margin-right;
+}
+
+.Start {
+background-color: #42f46e;
+border-color: #42f46e;
+border-radius: 30px;
+}
+
+.Pause {
+background-color: #f4e349;
+border-color: #f4e349;
+border-radius: 30px;
+}
+
+.Restart {
+background-color: #e03838;
+border-color: #e03838;
+border-radius: 30px;
+}
+
+.background1 {
+background-color: #4286f4;
+border-color: #4286f4;
+border-radius: 30px;
+}
+
+.iframe1 {
+  background-color: orange;
+  border-color: = orange;
+  padding: 0px;
+  border: 0px;
+}
+.iframe-text1 {
+  background-color: orange;
+  border-color: = orange;
+  padding: 0px;
+  border: 0px;
+}
+
+.button2 {
+  background-color: turquoise;
+  border-color: black;
+  border-radius: 30px;
+}
+
+.settings {
+
+  float: right;
+
+}
+
+.background2 {
+background-color: maroon;
+border-color: maroon;
+border-radius: 30px;
+}
+
+.iframe2 {
+  background-color: white;
+  color: white;
+  text-color: white;
+  border-color: = black;
+  padding: 0px;
+  border: 0px;
+}
+.iframe-text2 {
+  background-color: black;
+  border-color: = black;
+  padding: 0px;
+  border: 0px;
+}

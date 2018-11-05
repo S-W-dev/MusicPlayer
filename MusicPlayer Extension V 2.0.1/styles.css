@@ -1,0 +1,88 @@
+body {
+
+width:300px;
+animation: colorchange 25s;
+-webkit-animation: colorchange 25s;
+animation-iteration-count:infinite;
+-webkit-animation-iteration-count:infinite;
+
+}
+
+.Start {
+background-color: #42f46e;
+border-color: #42f46e;
+border-radius: 30px;
+}
+
+.Pause {
+background-color: #f4e349;
+border-color: #f4e349;
+border-radius: 30px;
+}
+
+.Restart {
+background-color: #e03838;
+border-color: #e03838;
+border-radius: 30px;
+}
+
+.title {
+	color: white;
+	animation: colorchange2 25s;
+	-webkit-animation: colorchange2 25s;
+	animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite;
+}
+
+.subtitle {
+	color: white;
+	animation: colorchange2 25s;
+	-webkit-animation: colorchange2 25s;
+	animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite;
+}
+
+#songdivtext {
+	color: white;
+	display: inline;
+	animation: colorchange2 25s;
+	-webkit-animation: colorchange2 25s;
+	animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite;
+}
+
+button {
+	float: right;
+}
+
+@keyframes colorchange{
+    0%   {background: red;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    75%  {background: green;}
+    100% {background: red;}
+}
+
+@-webkit-keyframes colorchange {
+  	0%   {background: red;}
+  	25%  {background: yellow;}
+  	50%  {background: blue;}
+ 	75%  {background: green;}
+  	100% {background: red;}
+}
+
+@keyframes colorchange2{
+    50%   {color: red;}
+    75%  {color: yellow;}
+    100%  {color: blue;}
+    25%  {color: green;}
+    50% {color: red;}
+}
+
+@-webkit-keyframes colorchange2 {
+  	50%   {color: red;}
+  	75%  {color: yellow;}
+  	100%  {color: blue;}
+ 	25%  {color: green;}
+  	50% {color: red;}
+}
