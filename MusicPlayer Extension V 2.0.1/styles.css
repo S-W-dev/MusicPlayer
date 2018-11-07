@@ -86,3 +86,7 @@ button {
  	25%  {color: green;}
   	50% {color: red;}
 }
+#selector {
+    width:100%;
+    height:100%;
+}
