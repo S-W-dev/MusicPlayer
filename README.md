@@ -9,7 +9,7 @@ Multiple versions, currently, 1.9.9 has more songs, while 2.0.1 runs better and 
 
 Adds more functionality, fixed bugs, runs in background. Looks cool!
 
-![V 2.0.1](https://github.com/s-w-dev/musicplayer/blob/master/V 2.0.1.gif)
+![V 2.0.1](https://github.com/s-w-dev/musicplayer/blob/master/V%202.0.1.gif)
 
 # V 1.9.9
 
