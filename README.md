@@ -19,4 +19,4 @@ Adds more songs, and online database for songs and songlist.
 
 # Older Versions
 
-Older versions are currently not availible becuase they are not very good and are very buggy.
+Older versions are currently not available becuase they are not very good and are very buggy.
