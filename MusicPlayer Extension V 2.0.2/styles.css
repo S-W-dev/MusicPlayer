@@ -86,3 +86,8 @@ button {
     75%  {color: yellow;}
     100% {color: blue;}
 }
+
+#Songs {
+	border:1px solid black;
+	border-radius: 30px;
+}

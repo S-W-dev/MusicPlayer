@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){
-	
+
 	var Start_Ludicrous = document.getElementById('StartLudicrous');
 	var Pause_Ludicrous = document.getElementById('PauseLudicrous');
 	var Restart_Ludicrous = document.getElementById('RestartLudicrous');
@@ -23,6 +23,14 @@ document.addEventListener('DOMContentLoaded', function(){
 	var Start_Bob = document.getElementById('StartBob');
 	var Pause_Bob = document.getElementById('PauseBob');
 	var Restart_Bob = document.getElementById('RestartBob');
+
+	var Start_Mine = document.getElementById('StartMine');
+	var Pause_Mine = document.getElementById('PauseMine');
+	var Restart_Mine = document.getElementById('RestartMine');
+
+	var Start_Sorry = document.getElementById('StartSorry');
+	var Pause_Sorry = document.getElementById('PauseSorry');
+	var Restart_Sorry = document.getElementById('RestartSorry');
 
 	Start_Ludicrous.addEventListener('click', function() {
 		chrome.runtime.sendMessage({type: "Start", value:"ludicrous"}, function(response) {});
@@ -82,6 +90,26 @@ document.addEventListener('DOMContentLoaded', function(){
 	});
 	Restart_Bob.addEventListener('click', function() {
 		chrome.runtime.sendMessage({type: "Restart", value:"Bob"}, function(response) {});
+	});
+
+	Start_Mine.addEventListener('click', function() {
+		chrome.runtime.sendMessage({type: "Start", value:"Mine"}, function(response) {});
+	});
+	Pause_Mine.addEventListener('click', function() {
+		chrome.runtime.sendMessage({type: "Pause", value:"Mine"}, function(response) {});
+	});
+	Restart_Mine.addEventListener('click', function() {
+		chrome.runtime.sendMessage({type: "Restart", value:"Mine"}, function(response) {});
+	});
+
+	Start_Sorry.addEventListener('click', function() {
+		chrome.runtime.sendMessage({type: "Start", value:"Sorry"}, function(response) {});
+	});
+	Pause_Sorry.addEventListener('click', function() {
+		chrome.runtime.sendMessage({type: "Pause", value:"Sorry"}, function(response) {});
+	});
+	Restart_Sorry.addEventListener('click', function() {
+		chrome.runtime.sendMessage({type: "Restart", value:"Sorry"}, function(response) {});
 	});
 
 });

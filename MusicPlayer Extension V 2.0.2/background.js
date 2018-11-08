@@ -16,6 +16,12 @@ thunder.src = "https://cookie-clicker.github.io/musicplayer/songs/thunder.mp3";
 var Bob = document.createElement("audio");
 Bob.src = "https://cookie-clicker.github.io/musicplayer/songs/bob_the_builder.mp3";
 
+var Mine = document.createElement("audio");
+Mine.src = "https://cookie-clicker.github.io/musicplayer/songs/mine_diamonds.mp3";
+
+var Sorry = document.createElement("audio");
+Sorry.src = "https://cookie-clicker.github.io/musicplayer/songs/sorry.mp3";
+
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 
 	if (request.type == "Start"){
@@ -41,6 +47,14 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 
 		if (request.value == "Bob"){
 			Bob.play();
+		}
+
+		if (request.value == "Mine"){
+			Mine.play();
+		}
+
+		if (request.value == "Sorry"){
+			Sorry.play();
 		}
 	}
 
@@ -68,6 +82,14 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 		if (request.value == "Bob"){
 			Bob.pause();
 		}
+
+		if (request.value == "Mine"){
+			Mine.pause();
+		}
+
+		if (request.value == "Sorry"){
+			Sorry.pause();
+		}
 	}
 
 	if (request.type == "Restart"){
@@ -93,6 +115,14 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 
 		if (request.value == "Bob"){
 			Bob.currentTime = 0;
+		}
+
+		if (request.value == "Mine"){
+			Mine.currentTime = 0;
+		}
+
+		if (request.value == "Sorry"){
+			Sorry.currentTime = 0;
 		}
 	}
 
