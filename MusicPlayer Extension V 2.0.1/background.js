@@ -1,11 +1,11 @@
 var ludicrous = document.createElement("audio");
-ludicrous.src = "http://cookieclicker.web44.net/musicplayer/songs/ludicrous_speed.mp3";
+ludicrous.src = "https://cookie-clicker.github.io/musicplayer/songs/ludicrous_speed.mp3";
 
 var hydra = document.createElement("audio");
-hydra.src = "http://cookieclicker.web44.net/musicplayer/songs/Hydra.mp3";
+hydra.src = "https://cookie-clicker.github.io/musicplayer/songs/Hydra.mp3";
 
 var muffin = document.createElement("audio");
-muffin.src = "http://cookieclicker.web44.net/musicplayer/songs/muffin_time.mp3";
+muffin.src = "https://cookie-clicker.github.io/musicplayer/songs/muffin_time.mp3";
 
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 
