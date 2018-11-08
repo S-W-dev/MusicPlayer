@@ -5,6 +5,10 @@ Multiple versions, currently, 1.9.9 has more songs, while 2.0.1 runs better and 
 
 # ### Version Release notes below. ###
 
+# V 2.0.2
+
+Added an invisible icon!
+
 # V 2.0.1
 
 Adds more functionality, fixed bugs, runs in background. Looks cool!
