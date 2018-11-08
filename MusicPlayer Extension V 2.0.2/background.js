@@ -1,20 +1,20 @@
 var ludicrous = document.createElement("audio");
-ludicrous.src = "http://cookieclicker.web44.net/musicplayer/songs/ludicrous_speed.mp3";
+ludicrous.src = "https://cookie-clicker.github.io/musicplayer/songs/ludicrous_speed.mp3";
 
 var hydra = document.createElement("audio");
-hydra.src = "http://cookieclicker.web44.net/musicplayer/songs/Hydra.mp3";
+hydra.src = "https://cookie-clicker.github.io/musicplayer/songs/Hydra.mp3";
 
 var muffin = document.createElement("audio");
-muffin.src = "http://cookieclicker.web44.net/musicplayer/songs/muffin_time.mp3";
+muffin.src = "https://cookie-clicker.github.io/musicplayer/songs/muffin_time.mp3";
 
 var better_now = document.createElement("audio");
-better_now.src = "http://cookieclicker.web44.net/musicplayer/songs/better_now.mp3";
+better_now.src = "https://cookie-clicker.github.io/musicplayer/songs/better_now.mp3";
 
 var thunder = document.createElement("audio");
-thunder.src = "http://cookieclicker.web44.net/musicplayer/songs/thunder.mp3";
+thunder.src = "https://cookie-clicker.github.io/musicplayer/songs/thunder.mp3";
 
 var Bob = document.createElement("audio");
-Bob.src = "http://cookieclicker.web44.net/musicplayer/songs/bob_the_builder.mp3";
+Bob.src = "https://cookie-clicker.github.io/musicplayer/songs/bob_the_builder.mp3";
 
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 
