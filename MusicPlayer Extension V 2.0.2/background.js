@@ -23,7 +23,7 @@ var Sorry = document.createElement("audio");
 Sorry.src = "https://cookie-clicker.github.io/musicplayer/songs/sorry.mp3";
 
 var Megalovania = document.createElement("audio");
-Megalovania.src = "https://cookie-clicker.github.io/musicplayer/songs/sorry.mp3";
+Megalovania.src = "https://cookie-clicker.github.io/musicplayer/songs/megalovania.mp3";
 
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 
