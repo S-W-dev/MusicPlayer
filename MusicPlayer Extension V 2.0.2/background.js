@@ -7,6 +7,15 @@ hydra.src = "http://cookieclicker.web44.net/musicplayer/songs/Hydra.mp3";
 var muffin = document.createElement("audio");
 muffin.src = "http://cookieclicker.web44.net/musicplayer/songs/muffin_time.mp3";
 
+var better_now = document.createElement("audio");
+better_now.src = "http://cookieclicker.web44.net/musicplayer/songs/better_now.mp3";
+
+var thunder = document.createElement("audio");
+thunder.src = "http://cookieclicker.web44.net/musicplayer/songs/thunder.mp3";
+
+var Bob = document.createElement("audio");
+Bob.src = "http://cookieclicker.web44.net/musicplayer/songs/bob_the_builder.mp3";
+
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 
 	if (request.type == "Start"){
@@ -20,6 +29,18 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 
 		if (request.value == "muffin"){
 			muffin.play();
+		}
+
+		if (request.value == "BetterNow"){
+			better_now.play();
+		}
+
+		if (request.value == "Thunder"){
+			thunder.play();
+		}
+
+		if (request.value == "Bob"){
+			Bob.play();
 		}
 	}
 
@@ -35,6 +56,18 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 		if (request.value == "muffin"){
 			muffin.pause();
 		}
+
+		if (request.value == "BetterNow"){
+			better_now.pause();
+		}
+
+		if (request.value == "Thunder"){
+			thunder.pause();
+		}
+
+		if (request.value == "Bob"){
+			Bob.pause();
+		}
 	}
 
 	if (request.type == "Restart"){
@@ -48,6 +81,18 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 
 		if (request.value == "muffin"){
 			muffin.currentTime = 0;
+		}
+
+		if (request.value == "BetterNow"){
+			better_now.currentTime = 0;
+		}
+
+		if (request.value == "Thunder"){
+			thunder.currentTime = 0;
+		}
+
+		if (request.value == "Bob"){
+			Bob.currentTime = 0;
 		}
 	}
 

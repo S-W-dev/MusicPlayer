@@ -1,13 +1,28 @@
 document.addEventListener('DOMContentLoaded', function(){
+	
 	var Start_Ludicrous = document.getElementById('StartLudicrous');
 	var Pause_Ludicrous = document.getElementById('PauseLudicrous');
 	var Restart_Ludicrous = document.getElementById('RestartLudicrous');
+
 	var Start_Hydra = document.getElementById('StartHydra');
 	var Pause_Hydra = document.getElementById('PauseHydra');
 	var Restart_Hydra = document.getElementById('RestartHydra');
+
 	var Start_Muffin = document.getElementById('StartMuffin');
 	var Pause_Muffin = document.getElementById('PauseMuffin');
 	var Restart_Muffin = document.getElementById('RestartMuffin');
+
+	var Start_BetterNow = document.getElementById('StartBetterNow');
+	var Pause_BetterNow = document.getElementById('PauseBetterNow');
+	var Restart_BetterNow = document.getElementById('RestartBetterNow');
+
+	var Start_Thunder = document.getElementById('StartThunder');
+	var Pause_Thunder = document.getElementById('PauseThunder');
+	var Restart_Thunder = document.getElementById('RestartThunder');
+
+	var Start_Bob = document.getElementById('StartBob');
+	var Pause_Bob = document.getElementById('PauseBob');
+	var Restart_Bob = document.getElementById('RestartBob');
 
 	Start_Ludicrous.addEventListener('click', function() {
 		chrome.runtime.sendMessage({type: "Start", value:"ludicrous"}, function(response) {});
@@ -38,4 +53,35 @@ document.addEventListener('DOMContentLoaded', function(){
 	Restart_Muffin.addEventListener('click', function() {
 		chrome.runtime.sendMessage({type: "Restart", value:"muffin"}, function(response) {});
 	});
+
+	Start_BetterNow.addEventListener('click', function() {
+		chrome.runtime.sendMessage({type: "Start", value:"BetterNow"}, function(response) {});
+	});
+	Pause_BetterNow.addEventListener('click', function() {
+		chrome.runtime.sendMessage({type: "Pause", value:"BetterNow"}, function(response) {});
+	});
+	Restart_BetterNow.addEventListener('click', function() {
+		chrome.runtime.sendMessage({type: "Restart", value:"BetterNow"}, function(response) {});
+	});
+
+	Start_Thunder.addEventListener('click', function() {
+		chrome.runtime.sendMessage({type: "Start", value:"Thunder"}, function(response) {});
+	});
+	Pause_Thunder.addEventListener('click', function() {
+		chrome.runtime.sendMessage({type: "Pause", value:"Thunder"}, function(response) {});
+	});
+	Restart_Thunder.addEventListener('click', function() {
+		chrome.runtime.sendMessage({type: "Restart", value:"Thunder"}, function(response) {});
+	});
+
+	Start_Bob.addEventListener('click', function() {
+		chrome.runtime.sendMessage({type: "Start", value:"Bob"}, function(response) {});
+	});
+	Pause_Bob.addEventListener('click', function() {
+		chrome.runtime.sendMessage({type: "Pause", value:"Bob"}, function(response) {});
+	});
+	Restart_Bob.addEventListener('click', function() {
+		chrome.runtime.sendMessage({type: "Restart", value:"Bob"}, function(response) {});
+	});
+
 });
