@@ -1,5 +1,5 @@
 
-var server = 'http://cookieclicker.web44.net/musicplayer/';
+var server = 'https://cookie-clicker.github.io/musicplayer/';
 var songs = server + 'songs/';
 var background_stage = 1;
 
