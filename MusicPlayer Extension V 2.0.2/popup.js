@@ -32,6 +32,10 @@ document.addEventListener('DOMContentLoaded', function(){
 	var Pause_Sorry = document.getElementById('PauseSorry');
 	var Restart_Sorry = document.getElementById('RestartSorry');
 
+	var Start_Megalovania = document.getElementById('StartMegalovania');
+	var Pause_Megalovania = document.getElementById('PauseMegalovania');
+	var Restart_Megalovania = document.getElementById('RestartMegalovania');
+
 	Start_Ludicrous.addEventListener('click', function() {
 		chrome.runtime.sendMessage({type: "Start", value:"ludicrous"}, function(response) {});
 	});
@@ -110,6 +114,16 @@ document.addEventListener('DOMContentLoaded', function(){
 	});
 	Restart_Sorry.addEventListener('click', function() {
 		chrome.runtime.sendMessage({type: "Restart", value:"Sorry"}, function(response) {});
+	});
+
+	Start_Megalovania.addEventListener('click', function() {
+		chrome.runtime.sendMessage({type: "Start", value:"Megalovania"}, function(response) {});
+	});
+	Pause_Megalovania.addEventListener('click', function() {
+		chrome.runtime.sendMessage({type: "Pause", value:"Megalovania"}, function(response) {});
+	});
+	Restart_Megalovania.addEventListener('click', function() {
+		chrome.runtime.sendMessage({type: "Restart", value:"Megalovania"}, function(response) {});
 	});
 
 });

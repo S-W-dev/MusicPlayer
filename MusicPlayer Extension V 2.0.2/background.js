@@ -22,6 +22,9 @@ Mine.src = "https://cookie-clicker.github.io/musicplayer/songs/mine_diamonds.mp3
 var Sorry = document.createElement("audio");
 Sorry.src = "https://cookie-clicker.github.io/musicplayer/songs/sorry.mp3";
 
+var Megalovania = document.createElement("audio");
+Megalovania.src = "https://cookie-clicker.github.io/musicplayer/songs/sorry.mp3";
+
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 
 	if (request.type == "Start"){
@@ -55,6 +58,10 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 
 		if (request.value == "Sorry"){
 			Sorry.play();
+		}
+
+		if (request.value == "Megalovania"){
+			Megalovania.play();
 		}
 	}
 
@@ -90,6 +97,10 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 		if (request.value == "Sorry"){
 			Sorry.pause();
 		}
+
+		if (requst.value == "Megalovania"){
+			Megalovania.pause();
+		}
 	}
 
 	if (request.type == "Restart"){
@@ -123,6 +134,10 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 
 		if (request.value == "Sorry"){
 			Sorry.currentTime = 0;
+		}
+
+		if (request.value == "Megalovania"){
+			Megalovania.currentTime = 0;
 		}
 	}
 
