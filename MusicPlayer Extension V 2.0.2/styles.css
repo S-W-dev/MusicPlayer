@@ -1,6 +1,6 @@
 body {
 
-width:350px;
+width:375px;
 animation: colorchange 10s;
 -webkit-animation: colorchange 10s;
 animation-iteration-count:infinite;
