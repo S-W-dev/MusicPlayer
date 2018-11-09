@@ -1,6 +1,7 @@
 body {
 
 width:375px;
+height: 202px;
 animation: colorchange 10s;
 -webkit-animation: colorchange 10s;
 animation-iteration-count:infinite;
@@ -9,21 +10,38 @@ animation-iteration-count:infinite;
 }
 
 .Start {
-background-color: #42f46e;
-border-color: #42f46e;
+background-color: turquoise;
+border-color: turquoise;
 border-radius: 30px;
+float: right;
+}
+
+.Start1 {
+background-color: lime;
+border-color: lime;
+border-radius: 30px;
+float: right;
+}
+
+.Start2 {
+background-color: magenta;
+border-color: magenta;
+border-radius: 30px;
+float: right;
 }
 
 .Pause {
 background-color: #f4e349;
 border-color: #f4e349;
 border-radius: 30px;
+float: right;
 }
 
 .Restart {
 background-color: #e03838;
 border-color: #e03838;
 border-radius: 30px;
+float: right;
 }
 
 .title {
@@ -52,7 +70,7 @@ border-radius: 30px;
 }
 
 button {
-	float: right;
+
 }
 
 @keyframes colorchange{
@@ -111,4 +129,49 @@ button {
 	-webkit-animation: colorchange3 10s;
 	animation-iteration-count:infinite;
 	-webkit-animation-iteration-count:infinite;
+}
+
+.loopbox {
+    padding: 0;
+		padding-left: 3px;
+		padding-right: 3px;
+		margin: 0;
+    margin-top: 5px;
+    float: right;
+}
+
+.loopboxtext {
+    padding: 0;
+	padding-left: 3px;
+	padding-right: 3px;
+	margin: 0;
+    margin-top: 3px;
+    float: right;
+}
+
+button {
+	cursor: pointer;
+	color: black;
+
+}
+
+.buttontext {
+	color: black;
+	text-decoration: none;
+}
+
+#button1 {
+	display: inline-block;
+	float: left;
+	width: 330px;
+	padding: 0;
+	margin: 0;
+}
+#creditsbutton {
+	display: inline-block;
+	float: left;
+	width: 330px;
+	padding: 0;
+	margin: 0;
+
 }

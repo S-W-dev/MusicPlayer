@@ -1,9 +1,9 @@
 {
 	"manifest_version":2,
-	
+
 	"name":"Music Player",
 	"description":"Play Music",
-	"version":"2.0.2",
+	"version":"2.0.3",
 
 	"browser_action":{
 		"default_icon":"InvisiIcon.png",
@@ -11,11 +11,11 @@
 	},
 
 	"background": {
-    	"scripts": ["background.js"],
-    	"persistent": true
-  	},
+		"scripts": ["background.js"],
+		"persistent": true
+	},
 
-	"permissions":[
+	"permissions": [
 		"activeTab"
 	]
 }
