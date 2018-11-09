@@ -1,0 +1,114 @@
+body {
+
+width:375px;
+animation: colorchange 10s;
+-webkit-animation: colorchange 10s;
+animation-iteration-count:infinite;
+-webkit-animation-iteration-count:infinite;
+
+}
+
+.Start {
+background-color: #42f46e;
+border-color: #42f46e;
+border-radius: 30px;
+}
+
+.Pause {
+background-color: #f4e349;
+border-color: #f4e349;
+border-radius: 30px;
+}
+
+.Restart {
+background-color: #e03838;
+border-color: #e03838;
+border-radius: 30px;
+}
+
+.title {
+	color: blue;
+	animation: colorchange2 10s;
+	-webkit-animation: colorchange2 10s;
+	animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite;
+}
+
+.subtitle {
+	color: blue;
+	animation: colorchange2 10s;
+	-webkit-animation: colorchange2 10s;
+	animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite;
+}
+
+#songdivtext {
+	color: blue;
+	display: inline;
+	animation: colorchange2 10s;
+	-webkit-animation: colorchange2 10s;
+	animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite;
+}
+
+button {
+	float: right;
+}
+
+@keyframes colorchange{
+    0%   {background: red;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    75%  {background: green;}
+    100% {background: red;}
+}
+
+@-webkit-keyframes colorchange {
+  	0%   {background: red;}
+  	25%  {background: yellow;}
+  	50%  {background: blue;}
+ 	75%  {background: green;}
+  	100% {background: red;}
+}
+
+@keyframes colorchange2{
+    0%   {color: blue;}
+    25%  {color: green;}
+    50%  {color: red;}
+    75%  {color: yellow;}
+    100% {color: blue;}
+}
+
+@-webkit-keyframes colorchange2 {
+    0%   {color: blue;}
+    25%  {color: green;}
+    50%  {color: red;}
+    75%  {color: yellow;}
+    100% {color: blue;}
+}
+
+@keyframes colorchange3{
+    0%   {border-color: blue;}
+    25%  {border-color: green;}
+    50%  {border-color: red;}
+    75%  {border-color: yellow;}
+    100% {border-color: blue;}
+}
+
+@-webkit-keyframes colorchange3 {
+    0%   {border-color: blue;}
+    25%  {border-color: green;}
+    50%  {border-color: red;}
+    75%  {border-color: yellow;}
+    100% {border-color: blue;}
+}
+
+#Songs {
+	padding: 15px;
+	border:5px solid black;
+	border-radius: 30px;
+	animation: colorchange3 10s;
+	-webkit-animation: colorchange3 10s;
+	animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite;
+}
