@@ -1,7 +1,6 @@
 # musicplayer
-plays music in the background so your teachers cant find out
 
-Multiple versions, currently, 1.9.9 has more songs, while 2.0.1 runs better and has new features.
+plays music in the background so your teachers cant find out
 
 # ### Version Release notes below. ###
 
