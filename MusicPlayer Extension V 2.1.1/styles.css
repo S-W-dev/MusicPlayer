@@ -1,0 +1,426 @@
+body {
+	width: 375px;
+	height: 202px;
+	animation: colorchange 10s;
+	-webkit-animation: colorchange 10s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.Start {
+	background-color: turquoise;
+	border-color: turquoise;
+	border-radius: 30px;
+	float: right;
+}
+
+.Start1 {
+	background-color: lime;
+	border-color: lime;
+	border-radius: 30px;
+	float: right;
+}
+
+.Start2 {
+	background-color: magenta;
+	border-color: magenta;
+	border-radius: 30px;
+	float: right;
+}
+
+.Pause {
+	background-color: #f4e349;
+	border-color: #f4e349;
+	border-radius: 30px;
+	float: right;
+}
+
+.Restart {
+	background-color: #e03838;
+	border-color: #e03838;
+	border-radius: 30px;
+	float: right;
+}
+
+.title {
+	color: blue;
+	animation: colorchange2 10s;
+	-webkit-animation: colorchange2 10s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.subtitle {
+	color: blue;
+	animation: colorchange2 10s;
+	-webkit-animation: colorchange2 10s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+#songdivtext {
+	color: blue;
+	display: inline;
+	animation: colorchange2 10s;
+	-webkit-animation: colorchange2 10s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	font-weight: bold;
+}
+
+.songdivtext {
+	color: blue;
+	display: inline;
+	animation: colorchange2 10s;
+	-webkit-animation: colorchange2 10s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	font-weight: bold;
+}
+
+button {
+	font-weight: bold;
+}
+
+hr {
+	animation: colorchange3 10s;
+	-webkit-animation: colorchange3 10s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes colorchange {
+	0% {
+		background: red;
+	}
+	25% {
+		background: yellow;
+	}
+	50% {
+		background: blue;
+	}
+	75% {
+		background: green;
+	}
+	100% {
+		background: red;
+	}
+}
+
+@-webkit-keyframes colorchange {
+	0% {
+		background: red;
+	}
+	25% {
+		background: yellow;
+	}
+	50% {
+		background: blue;
+	}
+	75% {
+		background: green;
+	}
+	100% {
+		background: red;
+	}
+}
+
+@keyframes colorchange2 {
+	0% {
+		color: blue;
+	}
+	25% {
+		color: green;
+	}
+	50% {
+		color: red;
+	}
+	75% {
+		color: yellow;
+	}
+	100% {
+		color: blue;
+	}
+}
+
+@-webkit-keyframes colorchange2 {
+	0% {
+		color: blue;
+	}
+	25% {
+		color: green;
+	}
+	50% {
+		color: red;
+	}
+	75% {
+		color: yellow;
+	}
+	100% {
+		color: blue;
+	}
+}
+
+@keyframes colorchange3 {
+	0% {
+		border-color: blue;
+	}
+	25% {
+		border-color: green;
+	}
+	50% {
+		border-color: red;
+	}
+	75% {
+		border-color: yellow;
+	}
+	100% {
+		border-color: blue;
+	}
+}
+
+@-webkit-keyframes colorchange3 {
+	0% {
+		border-color: blue;
+	}
+	25% {
+		border-color: green;
+	}
+	50% {
+		border-color: red;
+	}
+	75% {
+		border-color: yellow;
+	}
+	100% {
+		border-color: blue;
+	}
+}
+
+#Songs {
+	padding: 15px;
+	border: 5px solid black;
+	border-radius: 30px;
+	animation: colorchange3 10s;
+	-webkit-animation: colorchange3 10s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.loopbox {
+	padding: 0;
+	padding-left: 3px;
+	padding-right: 3px;
+	margin: 0;
+	margin-top: 5px;
+	float: right;
+}
+
+.loopboxtext {
+	padding: 0;
+	padding-left: 3px;
+	padding-right: 3px;
+	margin: 0;
+	margin-top: 3px;
+	float: right;
+}
+
+button {
+	cursor: pointer;
+	color: black;
+}
+
+.buttontext {
+	color: black;
+	text-decoration: none;
+}
+
+#button1 {
+	display: inline-block;
+	float: left;
+	width: 330px;
+	padding: 0;
+	margin: 0;
+}
+
+#creditsbutton {
+	display: inline-block;
+	float: left;
+	width: 330px;
+	padding: 0;
+	margin: 0;
+}
+
+.slidecontainer {
+	width: 100%;
+	height: 50px;
+	/* Width of the outside container */
+}
+
+
+/* The slider itself */
+
+.slider {
+	-webkit-appearance: none;
+	/* Override default CSS styles */
+	appearance: none;
+	width: 100%;
+	/* Full-width */
+	height: 25px;
+	/* Specified height */
+	background: #d3d3d3;
+	/* Grey background */
+	outline: none;
+	/* Remove outline */
+	opacity: 0.7;
+	/* Set transparency (for mouse-over effects on hover) */
+	-webkit-transition: .2s;
+	/* 0.2 seconds transition on hover */
+	transition: opacity .2s;
+}
+
+
+/* Mouse-over effects */
+
+.slider:hover {
+	opacity: 1;
+	/* Fully shown on mouse-over */
+}
+
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	/* Override default look */
+	appearance: none;
+	width: 25px;
+	/* Set a specific slider handle width */
+	height: 25px;
+	/* Slider handle height */
+	background: #4CAF50;
+	/* Green background */
+	cursor: pointer;
+	/* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+	width: 25px;
+	/* Set a specific slider handle width */
+	height: 25px;
+	/* Slider handle height */
+	background: #4CAF50;
+	/* Green background */
+	cursor: pointer;
+	/* Cursor on hover */
+}
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 23px;
+	height: 24px;
+	border: 0;
+	background: url('MusicSlider.png');
+	cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+	width: 23px;
+	height: 25px;
+	border: 0;
+	background: url('MusicSlider.png');
+	cursor: pointer;
+}
+
+#stickman1 {
+	width: 75px;
+	height: 65.625px;
+	margin: 0;
+	float: left;
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	margin-top: 10px;
+	position: absolute;
+}
+
+#stickman2 {
+	width: 75px;
+	height: 65.625px;
+	margin: 0;
+	margin-left: 260px;
+	margin-top: 10px;
+	float: right;
+	position: absolute;
+}
+
+#stickman3 {
+	width: 100px;
+	height: 87.5px;
+	margin: 0;
+	margin-top: 21px;
+	float: left;
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	position: absolute;
+}
+
+#stickman4 {
+	width: 100px;
+	height: 87.5px;
+	margin: 0;
+	margin-top: 21px;
+	margin-left: 275px;
+	float: right;
+	position: absolute;
+}
+
+#stickman5 {
+	width: 126.5px;
+	height: 92px;
+	margin: 0;
+	margin-left: 110px;
+	margin-top: -17px;
+	position: absolute;
+}
+
+.Seek1 {
+	border-color: #6082b6;
+	background-color: #6082b6;
+	border-radius: 30px;
+	width: 165px;
+}
+
+.Seek2 {
+	border-color: #6082b6;
+	background-color: #6082b6;
+	border-radius: 30px;
+	width: 165px;
+}
+
+.title {
+	margin-bottom: 35px;
+	position: relative;
+}
+
+#logo1 {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	margin: 0;
+	margin-left: -163px;
+	position: absolute;
+	width: 100;
+	height: 75;
+}
+
+#logo2 {
+	margin: 0;
+	margin-left: 65px;
+	position: absolute;
+	width: 100;
+	height: 75;
+}
+
+.Teamname {
+	margin: 0;
+}
