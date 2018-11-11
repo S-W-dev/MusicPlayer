@@ -17,7 +17,7 @@ Added an invisible icon!
 
 Adds more functionality, fixed bugs, runs in background. Looks cool!
 
-![V 2.0.1](https://github.com/s-w-dev/musicplayer/blob/master/V%202.0.2.gif)
+![V 2.0.1](https://github.com/s-w-dev/musicplayer/blob/master/V%202.0.2.png)
 
 # V 1.9.9
 
