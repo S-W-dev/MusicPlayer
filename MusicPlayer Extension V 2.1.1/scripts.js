@@ -1,7 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-  $('html').prepend('<div id="Songs"></div>');
-  $('#Songs').prepend('<br><div id="ludicrous_speed"><p id="songdivtext">Ludicrous Speed</p><button class="Start" id="ludicrous_speed">Select</button><br><br><details id="songdivtext"><div id="credit"><h4>By Jesse Valentine aka F-777</h4></div></details></div><br><hr>');
+  var ludicrous_speed = '<br><div id="ludicrous_speed"><p id="songdivtext">Ludicrous Speed</p><button class="Start" id="ludicrous_speed">Select</button><br><br><details id="songdivtext"><div id="credit"><h4>By Jesse Valentine aka F-777</h4></div></details></div><br><hr>';
+
+  $('html').prepend('<body><br><div id="Songs"></div></body>');
+  $('#Songs').prepend(ludicrous_speed);
 
     $('button').click(function(){
 
