@@ -7,11 +7,19 @@ Multiple versions, currently, 1.9.9 has more songs, while 2.0.1 runs better and 
 
 # In progress
 
+ # V 2.1.1
+ 
+ Started work yesterday.
+
+# Stable
+
+# V 2.1.0
+
+A really amazing update. Many, many more songs, as well as a new look! New features. Added Seek buttons, forward 5 seconds, backward 5 seconds, songs list, credits, detailed descriptions about the song writers. 
+
 # V 2.0.2
 
 Added an invisible icon!
-
-# Stable
 
 # V 2.0.1
 
