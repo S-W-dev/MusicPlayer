@@ -7,7 +7,7 @@ while True:
 
     print('<hr>')
     print('<br>')
-    print('<div id="' + song_id + 'div">')
+    print('<div id="' + song_id + '_div">')
     print('<p id="songdivtext">' + song_name + '</p><button class="Start" id="' + song_id + '">Select</button><br><br>')
     print('<details id="songdivtext">')
     print('<div id="credit">')
