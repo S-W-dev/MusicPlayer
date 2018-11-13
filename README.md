@@ -1,6 +1,6 @@
 # musicplayer
 
-plays music in the background so your teachers cant find out
+plays music in the background
 
 # ### Version Release notes below. ###
 
