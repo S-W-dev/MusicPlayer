@@ -8,7 +8,7 @@ plays music in the background
 
  # V 2.1.1
  
- Started work yesterday.
+ Started work November 10th. Some great new features as well as simplifying the code with a new breakthrough.
 
 # Stable
 
