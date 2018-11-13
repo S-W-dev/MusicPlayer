@@ -1,6 +1,8 @@
 from __future__ import unicode_literals
 import youtube_dl
 
+print('starting...')
+
 x = 1
 while True:
 
