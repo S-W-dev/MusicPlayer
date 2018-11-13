@@ -24,7 +24,7 @@ while True:
     print('This text was outputed into output.txt for mass projects.')
 
     output = open("output.txt","a+")
-    output.write('<hr><br><div id="' + song_id + '_div"><p id="songdivtext">' + song_name + '</p><button class="Start" id="' + song_id + '">Select</button><br><br><details id="songdivtext"><div id="credit"><h4>' + credit_stuff + '</h4></div></details><br></div><br> %d\r\n')
+    output.write('<hr><br><div id="' + song_id + '_div"><p id="songdivtext">' + song_name + '</p><button class="Start" id="' + song_id + '">Select</button><br><br><details id="songdivtext"><div id="credit"><h4>' + credit_stuff + '</h4></div></details><br></div><br>\r\n')
                  
     output.close()
 
