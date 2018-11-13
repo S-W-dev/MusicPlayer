@@ -66,4 +66,17 @@ document.addEventListener('DOMContentLoaded', function() {
             value: volume
         }, function(response) {});
     }, 1);
+
+
+    chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+
+      if (request.type = 'update_seek'){
+
+        var progressbar = request.value;
+        document.getElementById('seekbar').value = progressbar;
+
+      }
+
+    });
+
 });

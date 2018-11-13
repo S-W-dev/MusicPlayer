@@ -9,6 +9,7 @@
   },
   "background": {
     "scripts": [
+      "js_lib/jquery.min.js",
       "background.js"
     ],
     "persistent": true

@@ -7,7 +7,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     $('button').click(function(){
 
+      if(this.id != '#show'){
       select(this.id);
+    }
+    });
+
+    $('#show').click(function(){
+
+      document.getElementById('none').className = 'show';
 
     });
 
